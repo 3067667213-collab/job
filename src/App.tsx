@@ -282,20 +282,7 @@ const ProjectCard = ({ title, category, image, index, className = "" }: { title:
 };
 
 // --- Experience ---
-const Experience = () => {
-  const experiences = [
-    {
-      company: "北京吉善全息传媒有限公司",
-      role: "内容运营",
-      period: "2025.02 - 2026.02",
-      desc: "负责个人 IP 形象运营，聚焦短视频流量获取与直播引流。独立负责文案撰写、脚本策划及素材制作，实现公域流量精准对接。"
-    },
-    {
-      company: "家天下国学研究院",
-      role: "内容运营",
-      period: "2023.08 - 2025.02",
-      desc: "主导国学研究院线上传播与线下转化全链路运营，核心通过公众号自传播、小红书图文公域转私域，沉淀精准意向用户。"
-    }
+
   ];
 
   return (
@@ -412,12 +399,7 @@ const Education = () => {
           <span className="text-xs font-bold tracking-widest text-neutral-300 uppercase mb-2 block">
             Background
           </span>
-          <h3 className="text-2xl font-bold tracking-tight">教育背景</h3>
-        </div>
-        <div className="flex flex-wrap gap-12">
-          <div>
-            <p className="font-bold text-lg">四川传媒学院</p>
-            <p className="text-neutral-400 text-sm">视觉传达设计 · 本科 (2018-2023)</p>
+         
           </div>
         </div>
       </div>
